@@ -1,0 +1,162 @@
+/*EXTERNAL CSS*/
+*{
+    margin: 0;
+}
+
+head{
+    text-align: center;
+}
+
+/*--------HEADER-----------*/
+header{
+    background-image: url(https://elementor.com/cdn-cgi/image/f=auto,w=5001,h=2617/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png);
+    background-size: cover;
+    height: 300px;
+}
+
+header p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+/*---------BODY----------*/
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: lightsteelblue;
+    font-weight: 300;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px white;
+    text-decoration: underline black;
+    color:darkcyan;
+    font-size:50px;
+    margin-bottom: 40px;
+}
+
+h2, h3{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size:25px;
+    color:rgb(205, 108, 63); 
+    text-transform: uppercase;
+    text-shadow: 1px 1px white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    text-transform: uppercase;
+}
+
+p{
+    line-height: 1.5;
+    width:70%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 i, h2 i, h3 i{
+    margin-right: 15px;
+}
+
+img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div{
+    margin-bottom: 100px;
+}
+
+/*----------FOOTER------------*/
+footer{
+    background-color: rgba(46, 41, 41, 0.75);
+    color: white;
+    margin-top: 30px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/*----------------- NAV -----------------------*/
+
+nav.menu{
+    text-align: end;
+    padding-right: 20px;
+}
+
+nav.menu a{
+    color: black;
+}
+
+nav.menu a:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+nav.social a{
+    font-size: 24px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+/*------------------ UTILITY CLASSES --------------------------*/
+
+div.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.services{
+    background-color: rgb(106, 180, 145);
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 8px;
+    padding:10px;
+}
+
+div.services ol,div.services ul{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+div.contact{
+    margin: 100px auto;
+}
+
+div.contact h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+div.contact li, div.contact p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.lime_bg{
+    background-color: rgba(206, 235, 140, 0.747);
+}
